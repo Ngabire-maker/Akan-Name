@@ -1,0 +1,141 @@
+body{
+    background-color:#f6f5f5;
+    margin: 0px;
+    padding : 0px;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none ;
+}
+section{
+    width:100%
+    height=95vh
+    
+}
+nav{
+    display:flex;
+    justify-content:space between;
+    align-items:center;
+    height:60px;
+}
+nav ul{
+    display:flex;
+}
+nav ul,li,a{
+    margin: 30px;
+    font-family: myriad pro regular;
+    color:peachpuff;
+    font-size:15px;
+    font-weight:700;
+}
+.logo{
+    font-family: Roaad Test;
+    color:#000000;
+    font-size: 22px;
+}
+.active{
+    font-weight:bold;
+    color:#2d2a2a;
+}
+.text-container p:nth-child(1){
+    font-family: calibri;
+    font-weight: bold;
+    color: #6d6d6d;
+    font-size :22px;
+}
+.text-container p:nth-child(2){
+    font-family: calibri;
+    font-weight: bold;
+    letter-spacing:1px;
+    color: #1a1a1a;
+    font-size:60px;
+}
+.text-container p:nth-child(3){
+    font-family: myiad pro regular;
+    color: #403e40;
+    font-size: 30px;
+    line-height: 30px;
+}
+.text-container p:nth-child(4){
+    line-height:0px ; 
+    margin:45px opx 25px;
+}
+.text-container {
+    position:absolute;
+    left:13%
+    top  42%
+    transform translate (-13%,42%);
+}
+.text-container button {
+    width: 130px;
+    height: 42px;
+    border-radius: 10px;
+    font-family: calibri;
+    font-weight:bold;
+    font-size: 14px;
+    outline: none;
+    margin:0px 10px;
+}
+.Evaluate-btn{
+    border: 2px solid #373636;
+    color:#373636;
+}
+.Download-CV {
+    background-color: #0b0b0b;
+    color:#ffffff
+    border = none
+}
+.model{
+    height:560px;
+    position:absolute;
+    left:70%
+    transform  translateX (-70%)
+}
+.About me-container {
+    width: 80%;
+    height:330px;
+    background-color: #ffffff;
+    border-radius :20px;
+    box-shadow:2px 2px 12px rgb(0,0,0,2);
+    margin:-7% auto 20px auto;
+    position:relative;
+    justify-content: space-evenly;
+
+}
+.About-me container img {
+    height: 240px;
+}
+.about-text {
+    width:55opx;
+}
+.about-me text p  :nth-child(1) {
+color:#403e3e;
+font-family:myriad pro;
+font-size:23px;
+line-height: height 0px;
+}
+.about-me text p :nth-child(2) {
+    color:#3e3e3d;
+    font-size :13px;
+    font-family: myriad pro;
+    font-weight: bold;
+    line-height: 5;
+
+}
+.about-me text p:nth-child(3)
+.about-me text p:nth-child(4){
+    color:#7e7d7d;
+    font-family: calibri;
+    font-size: 16px;
+}
+.about-me text button {
+    width: 120px;
+    height:40px;
+    color:#ffffff;
+    outline:none;
+    border:none;
+    font-family:calibri ;
+    background-color:#262525
+}
